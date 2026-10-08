@@ -319,6 +319,15 @@ button:focus-visible {
 }
 
 /* Página de detalhe do local (reutiliza .cabecalho e .menu-lista) */
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
 .pagina-local {
   max-width: 60rem;
   margin: 0 auto;
